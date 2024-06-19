@@ -1,0 +1,303 @@
+/* ---------------------Main page responsive---------------- */
+@media only screen and (max-width: 1200px) {
+  .nav-right .nav-items .item {
+    display: none;
+  }
+  .side-menu {
+    position: fixed;
+    z-index: 150;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #212529 !important;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0;
+    transition: all 0.4s ease-in-out;
+    width: 100%;
+    height: 100%;
+    max-width: 400px;
+    transform: translateX(100%);
+  }
+  header.home .side-menu {
+    background-color: #212529;
+  }
+  .side-menu .close-button {
+    background: transparent;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    margin-right: 15px;
+  }
+  .side-menu .close-button i {
+    font-size: 32px;
+    color: #91b40d;
+  }
+  .side-menu .menu-top .menu-logo {
+    padding: 15px 30px 0px;
+  }
+  .open {
+    transform: translateX(0);
+    transition: all 0.4s ease-in-out;
+  }
+  .side-menu .menu-bottom .menu-items {
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    row-gap: 10px;
+    color: #91b40d;
+    width: 100%;
+  }
+  header.home .side-menu .menu-bottom .menu-item a {
+    text-decoration: none;
+    color: #91b40d;
+    display: inline-block;
+  }
+
+  .side-menu .menu-bottom .menu-item a {
+    padding: 12px;
+    transition: all 0.4s linear;
+    width: 300px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #91b40d;
+  }
+  .side-menu .menu-bottom .menu-item a.nav-active {
+    background-color: var(--var-color-green);
+    color: var(--var-white-color);
+  }
+  .side-menu .menu-bottom {
+    padding: 0px 25px 25px 25px;
+  }
+  header.home .side-menu .menu-bottom .menu-item a:hover,
+  .side-menu .menu-bottom .menu-item a:hover {
+    transition: all 0.4s linear;
+    background-color: #91b40d;
+    border-radius: 8px;
+    color: #fff;
+  }
+
+  .nav .nav-items .hamburger-btn {
+    display: block;
+    cursor: pointer;
+  }
+  .nav .nav-items .hamburger-btn i {
+    font-size: 28px;
+    color: #91b40d;
+  }
+  .about-content .about-text .about-text-design {
+    max-width: 500px;
+    margin-top: 0;
+  }
+  .about-content .about-text {
+    padding: 35px 15px 20px;
+  }
+  .about-content .about-quality {
+    gap: 50px;
+  }
+  .gardens-swiper-wrapper .swiper {
+    padding: 30px 25px 60px !important;
+  }
+  #products .products-row {
+    margin-left: 0;
+    gap: 20px;
+  }
+  #products .product-card {
+    margin-right: 20px !important;
+    margin-bottom: 15px;
+  }
+  #products .product {
+    width: 31%;
+  }
+  #blogs {
+    margin-bottom: 30px;
+  }
+  #services .col-lg-4 {
+    width: 50%;
+    margin-bottom: 35px;
+  }
+  #services {
+    padding: 35px 0px 50px;
+  }
+  #galery {
+    padding: 0;
+  }
+  #galery .col-lg-4 {
+    width: 33%;
+  }
+  #foot .row {
+    width: 100% !important;
+  }
+
+  #foot .col-lg-3 {
+    width: 41%;
+    display: flex;
+    align-items: center;
+  }
+  #about .row {
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 993px) {
+  #about .row {
+    flex-direction: column-reverse;
+  }
+  #products .product {
+    width: 45%;
+  }
+  #services .service-card .service-text {
+    width: 100%;
+  }
+  #foot .footer-menu .col-12 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .footer-menu .links-menu {
+    padding-right: 0 !important;
+  }
+  #galery .col-lg-4 {
+    width: 50%;
+  }
+  .preview-modal .preview-modal-body .modal-img {
+    margin-top: 0px;
+  }
+  .preview-modal .preview-modal-body .modal-content {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-right: 0px;
+  }
+  .preview-modal .modal-content .modal-text {
+    max-width: 550px;
+    font-size: 15px;
+  }
+  .product-galery .swiper-slide {
+    width: 400px !important;
+    margin-right: 40px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  #products .product {
+    width: 60%;
+  }
+  .swiper .blog-card .blog-card-text {
+    padding: 0px 45px;
+  }
+  #services .col-lg-4 {
+    width: 90%;
+    padding: 0px 40px 35px;
+  }
+  #products-preview .preview-modal {
+    width: 90%;
+  }
+  #galery .col-lg-4 {
+    width: 100%;
+  }
+  .navigation .phone-num span {
+    display: none;
+  }
+}
+@media screen and (max-width: 576px) {
+  .about-content .about-quality {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+  }
+  #products .product {
+    width: 65%;
+  }
+  .product-galery .swiper-slide {
+    width: 400px !important;
+  }
+  #products-preview .preview-modal {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 480px) {
+  #products .product {
+    width: 77%;
+  }
+  #blogs {
+    padding: 0;
+  }
+  .gardens-swiper-wrapper .swiper {
+    padding: 0 !important;
+  }
+  .gardens-swiper-wrapper .swiper-wrapper .swiper-slide {
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 320px) {
+  #products .product {
+    width: 120%;
+  }
+  #services .col-lg-4 {
+    width: 90%;
+    padding: 0px 10px 10px;
+    margin-left: 10px;
+  }
+  .swiper .blog-card .blog-card-text {
+    padding: 0px 5px;
+  }
+}
+/* ---------------------Main page responsive end---------------- */
+/* ---------------------About page responsive------------------- */
+@media screen and (max-width: 993px) {
+  .banner .about-design {
+    left: 50%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .about-banner .about-design {
+    position: absolute;
+    right: 37%;
+  }
+}
+/* ---------------------About page responsive end------------------- */
+/* ---------------------gardens page responsive------------------- */
+@media screen and (max-width: 993px) {
+  section.garden .gardens-container .garden-content {
+    text-align: center;
+    align-items: center;
+  }
+}
+/* ---------------------gardens page responsive end------------------- */
+/* ---------------------responsibility page responsive ------------------- */
+@media screen and (max-width: 1200px) {
+  footer {
+    margin-top: 70px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .social-resp .section-head .title {
+    width: 255px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .social-resp .section-head .title {
+    width: 235px;
+  }
+  .social-resp .social-content p:first-child {
+    min-width: 280px;
+  }
+}
+/* ---------------------responsibility page responsive end ----------------- */
+/* ---------------------Services page responsive end ----------------- */
+@media screen and (max-width: 480px) {
+  section.services .services-container .col-12 {
+    width: 90%;
+  }
+}
+/* ---------------------Contact page responsive ----------------- */
+@media screen and (max-width: 576px) {
+  .contact .row {
+    margin: 0;
+  }
+}
+/* ---------------------Contact page responsive end----------------- */
