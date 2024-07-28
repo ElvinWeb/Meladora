@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { ProductsData, ProductCategories } from "../../data/ProductsData";
 import title_design_1 from "../../meladora-image/design/title-design-1.png";
-import leaf_icon from "../../meladora-image/image/logo/leaf-icon.svg";
+import leaf_icon from "../../meladora-image/logo/leaf-icon.svg";
 import ProductModal from "./ProductModal";
 import { useNavigate, useParams } from "react-router-dom";
 

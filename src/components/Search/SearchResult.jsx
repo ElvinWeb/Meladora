@@ -1,5 +1,5 @@
 import React from "react";
-import leaf_icon from "../../meladora-image/image/logo/leaf-icon.svg";
+import leaf_icon from "../../meladora-image/logo/leaf-icon.svg";
 import title_design_1 from "../../meladora-image/design/title-design-1.png";
 
 export const SearchContainer = ({ searchProducts }) => {

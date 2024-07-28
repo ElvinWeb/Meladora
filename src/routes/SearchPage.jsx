@@ -21,3 +21,4 @@ export const SearchPage = () => {
     </RootLayout>
   );
 };
+export default SearchPage;
