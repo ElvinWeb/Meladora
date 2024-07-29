@@ -1,9 +1,9 @@
 import { React, useState } from "react";
 import NavBar from "./Nav-bar";
-import HomeNavigation from "./HomeNavigation";
+import HomeNavigation from "../Navigation/HomeNavigation";
 import Foodslider from "./Food-slider";
 import HeaderImg from "./Header-Bg";
-import HomeSearchBar from "./HomeSearchBar";
+import HomeSearchBar from "../Search/HomeSearchBar";
 
 function Header() {
   const [show, setShow] = useState(false);

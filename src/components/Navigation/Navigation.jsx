@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import { NavigationData } from "../../data/NavItemsData";
-import SideBar from "./Side-bar";
+import SideBar from "../Header/Side-bar";
 import Button from "react-bootstrap/Button";
 import black_logo from "../../meladora-image/logo/black-logo.png";
 import white_logo from "../../meladora-image/logo/white-logo.png";

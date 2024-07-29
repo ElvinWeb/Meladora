@@ -2,7 +2,7 @@ import { useState, React } from "react";
  
 import { NavigationData } from "../../data/NavItemsData";
 import Button from "react-bootstrap/Button";
-import SideBar from "./Side-bar";
+import SideBar from "../Header/Side-bar";
 import white_logo from "../../meladora-image/logo/white-logo.png";
 import { NavLink , Link } from "react-router-dom";
 

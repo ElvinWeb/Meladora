@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Navigation from "../components/Header/Navigation";
+import Navigation from "../components/Navigation/Navigation";
 import NavBar from "../components/Header/Nav-bar";
-import Searchbar from "../components/Header/Search-bar";
+import Searchbar from "../components/Search/Search-bar";
 import Footer from "../components/Footer/Footer";
 import SideBar from "../components/Header/Side-bar";
 import Banner from "../components/Banner/Banner";
